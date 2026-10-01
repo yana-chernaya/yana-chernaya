@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="240" viewBox="0 0 410 240"><g transform="translate(0 0)">
+<title>News</title>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#121029"/><stop offset=".55" stop-color="#271d49"/><stop offset="1" stop-color="#5e3357"/>
+</linearGradient>
+<radialGradient id="g" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#bba6ff" stop-opacity=".35"/><stop offset="1" stop-color="#bba6ff" stop-opacity="0"/></radialGradient>
+<clipPath id="r"><rect width="400" height="240" rx="20"/></clipPath>
+</defs>
+<style>
+.st{fill:#fff;animation:tw 4s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:.95}}
+.in{animation:in 1.4s ease both}
+.in2{animation:in 1.4s .5s ease both}
+.in3{animation:in 1.4s 1s ease both}
+@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.fl{animation:fl 7s ease-in-out infinite}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.heart{animation:hr 4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes hr{0%,50%{opacity:0;transform:translateY(0) scale(.5)}60%{opacity:1;transform:translateY(-4px) scale(1.15)}100%{opacity:0;transform:translateY(-45px) scale(.9)}}
+.pulse{animation:pu 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pu{0%,100%{transform:scale(.85);opacity:.7}50%{transform:scale(1.1);opacity:1}}
+</style>
+<g clip-path="url(#r)">
+<rect width="400" height="240" fill="url(#sky)"/>
+<rect width="400" height="240" fill="url(#g)"/>
+<circle class="st" cx="96" cy="15" r="0.7" style="animation-delay:1.4s;animation-duration:2.8s"/>
+<circle class="st" cx="9" cy="187" r="1.1" style="animation-delay:2.0s;animation-duration:4.1s"/>
+<circle class="st" cx="292" cy="227" r="0.9" style="animation-delay:1.5s;animation-duration:3.9s"/>
+<circle class="st" cx="13" cy="22" r="0.8" style="animation-delay:2.7s;animation-duration:4.6s"/>
+<circle class="st" cx="384" cy="218" r="0.6" style="animation-delay:1.8s;animation-duration:5.0s"/>
+<circle class="st" cx="209" cy="221" r="0.7" style="animation-delay:3.3s;animation-duration:4.0s"/>
+<circle class="st" cx="195" cy="14" r="0.6" style="animation-delay:2.0s;animation-duration:3.9s"/>
+<circle class="st" cx="331" cy="8" r="1.1" style="animation-delay:3.4s;animation-duration:2.9s"/>
+<circle class="st" cx="392" cy="140" r="0.9" style="animation-delay:1.7s;animation-duration:3.3s"/>
+<circle class="st" cx="292" cy="227" r="0.8" style="animation-delay:2.6s;animation-duration:3.4s"/>
+<circle class="st" cx="356" cy="231" r="0.9" style="animation-delay:0.6s;animation-duration:3.1s"/>
+<circle class="st" cx="115" cy="225" r="0.7" style="animation-delay:2.0s;animation-duration:4.4s"/>
+<circle class="st" cx="343" cy="13" r="0.6" style="animation-delay:2.8s;animation-duration:5.2s"/>
+<circle class="st" cx="8" cy="96" r="1.2" style="animation-delay:3.3s;animation-duration:5.1s"/>
+
+<g class="in">
+<text x="36" y="46" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing="3" fill="#bba6ff">02</text>
+<text x="36" y="94" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="42" fill="#fdf3ea">News</text>
+</g>
+<g class="in2">
+<text x="36" y="132" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="17" fill="#e4d9ef">Follow topics, get the latest news.</text>
+<text x="36" y="157" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="17" fill="#e4d9ef">Readable offline, auto-refreshed.</text>
+</g>
+<g class="in3"><rect x="36" y="190" width="77" height="26" rx="13" fill="#bba6ff" fill-opacity=".12" stroke="#bba6ff" stroke-opacity=".45"/><text x="74" y="207.5" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#bba6ff">Compose</text><rect x="121" y="190" width="53" height="26" rx="13" fill="#bba6ff" fill-opacity=".12" stroke="#bba6ff" stroke-opacity=".45"/><text x="147" y="207.5" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#bba6ff">Room</text><rect x="182" y="190" width="84" height="26" rx="13" fill="#bba6ff" fill-opacity=".12" stroke="#bba6ff" stroke-opacity=".45"/><text x="224" y="207.5" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#bba6ff">Retrofit</text><rect x="274" y="190" width="108" height="26" rx="13" fill="#bba6ff" fill-opacity=".12" stroke="#bba6ff" stroke-opacity=".45"/><text x="328" y="207.5" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#bba6ff">WorkManager</text></g>
+<g transform="translate(330 54)"><circle r="26" fill="#bba6ff" fill-opacity=".14" stroke="#bba6ff" stroke-opacity=".5"/><rect x="-13" y="-10" width="26" height="4" rx="2" fill="#bba6ff"/><rect x="-13" y="-2" width="20" height="4" rx="2" fill="#bba6ff"/><rect x="-13" y="6" width="14" height="4" rx="2" fill="#bba6ff"/></g>
+</g>
+<rect x="1" y="1" width="398" height="238" rx="19" fill="none" stroke="#bba6ff" stroke-opacity=".25"/>
+</g></svg>
